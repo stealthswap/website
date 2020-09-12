@@ -15,7 +15,7 @@
     "build:css": "run-s lint-scss scss autoprefixer",
     "build:js": "run-s lint uglify",
     "build:images": "run-s imagemin",
-    "build:pdfs":"cp -r src/assets/* dist/assets/",
+    "build:pdfs":"mkdirp dist/assets && cp -r src/assets/* dist/assets/",
     "build": "run-s build:*"
   },
   "devDependencies": {
