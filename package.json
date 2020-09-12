@@ -2,7 +2,7 @@
   "name": "fall",
   "version": "1.0.0",
   "description": "StealthSwap Landing",
-  "author": "Thomas <thomais-ai@protonmail.com>",
+  "author": "Thomas <thomais-villain@protonmail.com>",
   "license": "GPLv3",
   "scripts": {
     "clean": "rimraf dist/{css/*,js/*,images/*}",
