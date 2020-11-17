@@ -16,6 +16,7 @@
     "build:js": "run-s lint uglify",
     "build:images": "run-s imagemin",
     "build:pdfs":"mkdirp dist/assets && cp -r src/assets/* dist/assets/",
+    "build:redir":"cp _redirects dist/",
     "build": "run-s build:*"
   },
   "devDependencies": {
